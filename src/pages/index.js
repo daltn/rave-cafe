@@ -17,6 +17,7 @@ const IndexPage = () => {
       >
         rave.cafe
       </h1>
+      <Image />
     </Layout>
   )
 }
