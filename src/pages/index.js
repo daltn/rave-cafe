@@ -15,7 +15,7 @@ const IndexPage = () => {
         onMouseOver={() => setHover(!hover)}
         className={hover ? "spin blur" : "spin"}
       >
-        rave.cafe
+        rave.cafe opening soon
       </h1>
       <Image />
     </Layout>
