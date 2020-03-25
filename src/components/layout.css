@@ -625,10 +625,9 @@ pre tt:after {
 
 .spin {
   animation: infinite-spinning 10s linear infinite;
-  color: cyan;
-  transition: all 1s ease-in;
-  text-align: center;
-  width: 90vw;
+  color: #fff;
+  transition: all 5s ease-in;
+  width: 40vw;
 }
 
 @keyframes infinite-spinning {
@@ -642,4 +641,9 @@ pre tt:after {
 
 .blur {
   filter: drop-shadow(16px 16px 20px salmon) invert(75%);
+}
+
+h1 {
+  display: inline;
+  color: #fff;
 }

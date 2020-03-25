@@ -10,14 +10,9 @@ const IndexPage = () => {
 
   return (
     <Layout>
-      <SEO title="Home" />
-      <h1
-        onMouseOver={() => setHover(!hover)}
-        className={hover ? "spin blur" : "spin"}
-      >
-        rave.cafe opening soon
-      </h1>
+      <SEO title="rave cafe" />
       <Image />
+      <h1>rave.cafe</h1>
     </Layout>
   )
 }
